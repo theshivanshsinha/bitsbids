@@ -19,7 +19,8 @@ function App() {
   return (
       <Router>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Signup />} />
+          <Route path='/Home' element={<Home />} />
           <Route path="/add-product" element={<AddProduct />} />
           <Route path="/bid" element={<Bid />} />
           <Route path="/inventory" element={<Inventory />} />
@@ -28,7 +29,6 @@ function App() {
           <Route path="/message-seller" element={<MessageSeller />} />
           <Route path="/profile-bid" element={<ProfileBid />} />
           <Route path="/profile-sell" element={<ProfileSell />} />
-          <Route path="/signup" element={<Signup />} />
           <Route path="/specific-product" element={<SpecificProduct />} />
           <Route path="/wallet" element={<Wallet />} />
           <Route path="/your-bid" element={<YourBid />} />
